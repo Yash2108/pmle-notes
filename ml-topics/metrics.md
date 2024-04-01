@@ -3,10 +3,10 @@
 
 ## Classification
 ---
-![[ml-topics/attachments/summary-of-classification-metrics.png]]
+![](attachments/summary-of-classification-metrics.png)
 
 ### AUC
-![[ml-topics/attachments/auc-curve.png]]
+![](attachments/auc-curve.png)
 This method has the following advantages:
 
 - Scale-invariant: It measures how well the predictions are ranked and not their absolute values.
@@ -19,7 +19,8 @@ The ideal point is the top left corner with 100% TPR which is never achieved. Th
 If two models are considered, 2 graphs are plotted and the area under the curve is used to compare. After the choice, you can find the threshold point that maximizes your F1.
 
 ### AUC PR Curve
-![[ml-topics/attachments/auc-pr-curve.png]]If the dataset is highly imbalanced, the AUC PR is preferred because a high number of true negatives can cause the AUC curve to be skewed.
+![](attachments/auc-pr-curve.png)
+If the dataset is highly imbalanced, the AUC PR is preferred because a high number of true negatives can cause the AUC curve to be skewed.
 
 Ideal point is top right which has 100% recall and precision.
 

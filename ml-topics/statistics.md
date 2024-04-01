@@ -28,7 +28,7 @@ Covariance is a measure of how much two random variables vary from each other
 
 ### Data Skew
 - when the normal distribution curve is not symmetric
-- ![[ml-topics/attachments/data-skew.png]]
+- ![](attachments/data-skew.png)
 
 ### Z-Score
 Scaled value = (value − mean) / stddev
