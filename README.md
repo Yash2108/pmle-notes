@@ -4,7 +4,7 @@ This repo contains notes taken while preparing for Google's Cloud Platform Profe
 
 There are 3 major categories:
 
-1. [`services`](services/README)
-2. [`ml-topics`](ml-topics/README)
-3. [`scenario-based-qns`](scenario-based-qns/README)
+1. [`services`](services/README.md)
+2. [`ml-topics`](ml-topics/README.md)
+3. [`scenario-based-qna`](scenario-based-qna/README.md)
 
