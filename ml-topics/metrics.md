@@ -45,15 +45,43 @@ Best curve is a horizontal line across the top.
 
 ## Regression
 ---
+### MSE - Mean Squared Error
+$$
+MSE = \frac{1}{n}\sum_{i=1}^n (y - \hat{y})^2
+$$
+**Advantages:**
+1. Differentiable at all points because of the quadratic curve.
+2. It has one local and one global minima.
+3. Converges faster
 
-### MAE
-Mean Absolute Error
+**Disadvantage:**
+1. Not robust to outliers (Equal penalty to outliers resulting in higher error).
+2. It is no longer in the same unit because of the square factor in the formula.
 
-### RMSE
-Root Mean Squared Error
+### MAE - Mean Absolute Error
+$$
+MAE = \frac{1}{n}\sum_{i=1}^{n}|y - \hat{y}|
+$$
+**Advantage:**
+1. Robust to outliers.  (The error is not squared).
+2. Units will not change. 
+
+**Disadvantage:**
+1. Convergence takes more time. (Not differentiable at 0)
+2. Time Consuming
+
+### RMSE - Root Mean Squared Error
+$$
+RMSE = \sqrt{ MSE }
+$$
+**Advantages:**
+1. Units don't change.
+2. Differentiable at all points. 
+
+**Disadvantage:**
+1. Not robust to outliers. 
 
 If you are worried that your model might incorrectly predict a very large value and want to penalize the model, you can use this.
-
 Ranges from 0 to infinity.
 
 ### RMSLE
@@ -74,3 +102,7 @@ Square of the Pearson correlation coefficient (r) between the labels and predict
 Ranges from zero to one
 
 A higher value indicates a better fit for the model
+
+Resources:
+1. [R-squared, Clearly Explained!!! (youtube.com)](https://www.youtube.com/watch?v=bMccdk8EdGo) 
+2. [Machine Learning Series- Revising Regression Performance Metrics,MSE,MAE,RMSE, R squared-Krish Naik (youtube.com)](https://www.youtube.com/watch?v=BGlEv2CTfeg)
