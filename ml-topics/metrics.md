@@ -4,6 +4,8 @@
 ## Classification
 ---
 ![](attachments/summary-of-classification-metrics.png)
+**Precision**: Answers the question - "Of all the instances predicted as positive (TP + FP), how many are actually positive?"
+**Recall**: Answers the question - "Of all the actual positive instances (TP + FN), how many did the model correctly identify?"
 
 ### AUC
 ![](attachments/auc-curve.png)
@@ -57,3 +59,9 @@ Square of the Pearson correlation coefficient (r) between the labels and predict
 Ranges from zero to one
 
 A higher value indicates a better fit for the model
+
+
+Resources
+1. [A Beginner Comprehensive Understanding of Precision, Recall, and F1 Score: Demystifying Key Metrics in Machine Learning Evaluation | by Han HELOIR, Ph.D. ☕️ | Data And Beyond | Medium](https://medium.com/data-and-beyond/a-beginner-comprehensive-understanding-of-precision-recall-and-f1-score-demystifying-key-metrics-58cb3a2619e)
+2. [A Beginner’s Guide to ROC Curves and AUC Metrics. | by Michael Scognamiglio | The Startup | Medium](https://medium.com/swlh/a-beginners-guide-to-roc-and-auc-curves-d279c1a5e0e6)
+3. 
