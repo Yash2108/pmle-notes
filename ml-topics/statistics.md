@@ -32,7 +32,7 @@ $$
 
 ### Data Skew
 - when the normal distribution curve is not symmetric
-![](attachments/data-skew.png)
+![data-skew](attachments/data-skew.png)
 
 ### Z-Score
 Scaled value = (value − mean) / stddev
@@ -79,7 +79,7 @@ $$
 - Models with high variance will have a low bias.
 
 The better a model fits the data, the lower the bias, the higher the variance
-![bias-vs-variance](bias-vs-variance.png)
+![bias-vs-variance](attachments/bias-vs-variance.png)
 
 Ways to find optimal solution:
 - Increasing the complexity of the model 
@@ -94,5 +94,4 @@ This table lists common algorithms and their expected behavior regarding bias an
 | Bagging           | Low Bias  | High Variance (Less than Decision Tree)             |
 | Random Forest     | Low Bias  | High Variance (Less than Decision Tree and Bagging) |
 
-![bias-variance-trade-off](bias-variance-trade-off.png)
-
+![bias-variance-trade-off](attachments/bias-variance-trade-off.png)

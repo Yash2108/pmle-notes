@@ -3,13 +3,13 @@
 ## Artificial Neural Networks (ANN)
 Simple network with 1 input, 1 hidden and 1 output layer.
 
-![artificial-neural-networks](artificial-neural-networks.png)
+![artificial-neural-networks](attachments/artificial-neural-networks.png)
 
 ## Deep Neural Networks (DNN)
 
 ANN with more hidden layers
 
-![deep-neural-networks](deep-neural-networks.png)
+![deep-neural-networks](attachments/deep-neural-networks.png)
 
 ## Convolutional Neural Networks (CNN)
 
@@ -34,7 +34,7 @@ LSTMs can be used in a model to accept a sequence of input data and make a predi
 
 # Loss Functions
 
-![](loss-functions.png)
+![loss-functions](attachments/loss-functions.png)
 
 # Hyperparameter Tuning
 

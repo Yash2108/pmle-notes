@@ -26,7 +26,7 @@ This is done using 2 ways:
 - Nodes dont wait for each other
 - Variables are synched asynchronously
 - An example:
-![asynch-data-parallelism](asynch-data-parallelism.png)
+![asynch-data-parallelism](attachments/asynch-data-parallelism.png)
  This is the parameter server strategy for TensorFlow distributed learning
 
 
@@ -47,4 +47,4 @@ This is done using 2 ways:
 | ParameterServerStrategy     | Some machines are designated as workers and some as parameter servers.                                              |
 
 #### Training strategy with TensorFlow
-![](training-strategy-with-tensorflow.png)
+![training-strategy-with-tensorflow](attachments/training-strategy-with-tensorflow.png)
