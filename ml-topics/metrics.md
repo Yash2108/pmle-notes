@@ -3,7 +3,7 @@
 
 ## Classification
 ---
-![](attachments/summary-of-classification-metrics.png)
+![summary-of-classification-metrics](attachments/summary-of-classification-metrics.png)
 **Precision**: Answers the question - "Of all the instances predicted as positive (TP + FP), how many are actually positive?"
 **Recall**: Answers the question - "Of all the actual positive instances (TP + FN), how many did the model correctly identify as positive?"
 **Specificity**: Answers the question - "Of all the actual negative instances (TN + FP), how many did the model correctly identify as negative?"
@@ -12,13 +12,13 @@
 ### AUC
 
 **True Positive Rate (TPR):** How well the model identifies the positive class.
-![](true-postiive-rate.png)
+![true-positive-rate](attachments/true-positive-rate.png)
 
 **False Positive Rate (FPR)**: How often there are incorrect classifications of the positive class.
-![](false-positive-rate.png)
+![false-positive-rate](attachments/false-positive-rate.png)
 
 
-![](attachments/auc-curve.png)
+![auc-curve](attachments/auc-curve.png)
 This method has the following advantages:
 
 - Scale-invariant: It measures how well the predictions are ranked and not their absolute values.
@@ -31,7 +31,7 @@ The ideal point is the top left corner with 100% TPR which is never achieved. Th
 If two models are considered, 2 graphs are plotted and the area under the curve is used to compare. After the choice, you can find the threshold point that maximizes your F1.
 
 ### AUC PR Curve
-![](attachments/auc-pr-curve.png)
+![auc-pr-curve](attachments/auc-pr-curve.png)
 If the dataset is highly imbalanced, the AUC PR is preferred because a high number of true negatives can cause the AUC curve to be skewed.
 
 Ideal point is top right which has 100% recall and precision.
