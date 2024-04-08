@@ -20,6 +20,8 @@ This is done using 2 ways:
 
 - Synchronous training uses an [all-reduce algorithm](https://towardsdatascience.com/visual-intuition-on-ring-allreduce-for-distributed-deep-learning-d1f34b4911da) which collects all the trainable parameters from various workers and accelerators.
 
+The “all-reduce sync” strategy is great for Tensor Processing Unit (TPU) and one-machine multi-GPUs.
+
 ### Asynchronous
 
 - Harder to scale
@@ -28,7 +30,6 @@ This is done using 2 ways:
 - An example:
 ![asynch-data-parallelism](attachments/asynch-data-parallelism.png)
  This is the parameter server strategy for TensorFlow distributed learning
-
 
 ## Model Parallelism
 
