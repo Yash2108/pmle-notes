@@ -9,3 +9,14 @@
 
 #### [Memorystore](memorystore.md) vs [Datastore](datastore.md) vs [Bigtable](bigtable.md)
 ![memorystore-vs-datastore-vs-bigtable](attachments/memorystore-vs-datastore-vs-bigtable.png)
+
+#### Storage guidance
+![storage-guidance](attachments/storage-guidance.png)
+
+If using TensorFlow:
+- store data as sharded TFRecord files. 
+- can also use TF I/O to manage data in Parquet format for training. 
+
+Else:
+- store as Avro files in [Google Cloud Storage](cloud-storage.md)
+

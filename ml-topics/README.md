@@ -2,8 +2,10 @@
 
 List of Notes:
 - [Augmentation](augmentation.md)
-- [metrics](metrics.md)
+- [Metrics](metrics.md)
+- [Monitoring](monitoring.md)
 - [Machine Learning Models](models.md)
 - [Regularization](regularization.md)
 - [Semi-Supervised Learning](semi-supervised-learning.md)
-- [statistics](statistics.md)
+- [Statistics](statistics.md)
+- [Unit Tests for ML](unit-tests-for-ml.md)
