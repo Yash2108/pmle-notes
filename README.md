@@ -9,6 +9,9 @@ There are 4 major categories:
 3. [`Concepts`](concepts/README.md)
 4. [`Scenario Based QnA`](scenario-based-qna/README.md)
 
+#### Chapters to revise from the book
+
+- Chapter 11
 
 #### Other links
 
