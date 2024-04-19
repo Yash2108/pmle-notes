@@ -27,4 +27,12 @@ Example: An ensemble of Neural Network and Decision Tree.
 Preferred Method: Sampled Shapley
 
 
- 
+### Explanations available after configuration
+
+- Online Explanations
+	- Synchronous requests to the Vertex AI API. Similar to online predictions
+	- Returns predictions with feature attribution
+- Batch Explanations
+	- Asynchronous requests. 
+- Local Kernel Explanations
+	- For custom trained models. 

@@ -2,6 +2,7 @@
 
 List of Notes:
 - [Augmentation](augmentation.md)
+- [Explainable AI](explainable-ai.md)
 - [Metrics](metrics.md)
 - [Monitoring](monitoring.md)
 - [Machine Learning Models](models.md)
