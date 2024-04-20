@@ -13,6 +13,6 @@ is library and coding language agnostic
 3. MLflow Models
 	1. for managing and deploying models
 4. MLflow Model Registry
-	1. similar to [Vertex AI Model Registry](vertex-ai-model-registry.md)
+	1. similar to [Vertex AI Model Registry](vertex.md#Model%20Registry)
 	2. for providing a central model to store
 	3. includes model versioning, stage transitions and annotations

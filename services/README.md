@@ -9,8 +9,8 @@ List of Notes:
 - [Datastore](datastore.md)
 - [Memorystore](memorystore.md)
 - [Multi-service](multi-service.md)
-- [Vertex AI](vertex-ai.md)
-- [Vertex Explainable AI](vertex-explainable-ai.md)
+- [Vertex AI](vertex.md)
+
 
 Ingestion Services:
 - [Pub/Sub](pub-sub.md)

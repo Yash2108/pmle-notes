@@ -32,4 +32,4 @@ Here the prediction requests can be of 2 types:
 	- create a hashed combination of all possible input features and use it as key while prediction is the value
 
 #### A/B Testing
-available through [Vertex AI](services/vertex-ai.md)
+available through [Vertex AI](../services/vertex.md)

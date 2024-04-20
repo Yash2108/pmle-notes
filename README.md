@@ -9,10 +9,13 @@ There are 4 major categories:
 3. [`Concepts`](concepts/README.md)
 4. [`Scenario Based QnA`](scenario-based-qna/README.md)
 
+PS: These notes were made using Obsidian. If the hyperlinks don't work, welp.
 #### Chapters to revise from the book
 
-- Chapter 11
+- Chapter 10
 
+#### Glossary
+![glossary](attachments/glossary.pdf)
 #### Other links
 
 - [Medium article](https://sathishvj.medium.com/notes-from-my-google-cloud-professional-machine-learning-engineer-certification-exam-2110998db0f5)

@@ -3,7 +3,7 @@ Assume you have to setup a trigger for a real time prediction job.
 This can be done using following services:
 
 1. [Cloud Scheduler](services/cloud-scheduler.md) can help setup a cron job schedule
-2. Use [Vertex AI](services/vertex-ai.md) managed notebooks to execute and schedule training and prediction jobs
+2. Use [Vertex AI](../services/vertex.md) managed notebooks to execute and schedule training and prediction jobs
 3. [Cloud Build](services/cloud-build.md) is a CI/CD offering on GCP. [Cloud Run](services/cloud-run.md) is a managed offering to deploy containers. You can use Cloud Build to deploy your application to Cloud Run
 4. [Pub/Sub](services/pub-sub.md) and [Cloud Functions](services/cloud-function.md) can be used.
 	- Cloud Functions directly listens to Cloud Storage triggers. Pub/Sub offers a more flexible approach where:

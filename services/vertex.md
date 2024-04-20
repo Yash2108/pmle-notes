@@ -1,9 +1,10 @@
-# Vertex AI
-#### ML problem types available in Google Cloud
+# Everything Vertex
+## Vertex AI
+### ML problem types available in Google Cloud
 ![ml-problem-types](attachments/ml-problem-types.png)
 
 
-#### User-managed vs Managed Notebook
+### User-managed vs Managed Notebook
 
 
 | Managed notebook                                                                                                                                 | User-managed notebook                                                                                                                                                                                                          |
@@ -29,3 +30,53 @@ Example use case:
 - Optimize amount of ingredients in a recipe to produce the most delicious version
 
 The Vizier is an independent service. Hyperparameter tuning for custom training is a built-in feature that uses Vertex AI Vizier.
+
+## Vertex [Explainable AI](ml-topics/explainable-ai)
+
+The following services are supported:
+- AutoML image models (classification only)
+- AutoML tabular models (classification and regression only)
+- Custom TF models on image data
+- Custom TF models on tabular data
+
+### Feature Attribution
+
+is done using three methods:
+1. Sampled Shapley
+2. Integrated Gradients
+	1. provides local feature importance
+	2. doesnt provide global feature importance
+	3. doesnt explain feature interactions and combinations
+4. XRAI (eXplanation with Ranked Area Integrals)
+
+![explanable-ai-methods](attachments/explanable-ai-methods.png)
+
+#### Differentiable Models
+All operations in the model are differentiable. Ex: Neural Networks
+Preferred Method: Integrated Gradients
+#### Non-Differentiable Models
+The models that include non-differentiable operations like rounding or decoding.
+Example: An ensemble of Neural Network and Decision Tree.
+Preferred Method: Sampled Shapley
+
+
+### Explanations available after configuration
+
+- Online Explanations
+	- Synchronous requests to the Vertex AI API. Similar to online predictions
+	- Returns predictions with feature attribution
+- Batch Explanations
+	- Asynchronous requests. 
+- Local Kernel Explanations
+	- For custom trained models. 
+
+
+## Vertex AI Pipelines
+
+can use this to run [Kubeflow Pipelines](kubeflow.md#Kubeflow%20Pipelines) or Tensorflow Extended pipelines
+
+serverless
+
+provides [data lineage](ml-topics/lineage.md)
+
+## Model Registry
