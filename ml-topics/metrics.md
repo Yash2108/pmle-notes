@@ -12,7 +12,7 @@
 ### AUC
 
 **True Positive Rate (TPR):** How well the model identifies the positive class.
-![](true-postiive-rate.png)
+![](true-positive-rate.png)
 
 **False Positive Rate (FPR)**: How often there are incorrect classifications of the positive class.
 ![](false-positive-rate.png)
