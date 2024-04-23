@@ -79,4 +79,24 @@ serverless
 
 provides [data lineage](ml-topics/lineage.md)
 
+## ML Metadata
+
+terminology used:
+- #### Metadata store
+	- top-level container for all metadata resources
+	- usually, 1 metadata is shared by entire org
+- #### Metadata resources
+	- ##### Artifacts
+		- is an entity or piece of data that was created or can be used by an ML workflow
+	- ##### Context
+		- group of artifacts and executions
+		- you are optimizing hyperparameters; each experiment would be a different execution with its own set of parameters and metrics. You can group these experiments into a context and then compare the metrics in this context to identify the best model.
+	- ##### Execution
+		- represents a step in ML workflow
+		- ![Vertex Metadata data model](attachments/vertex-metadata-data-model.png)
+	- ##### Events
+		- connects artifacts and executions
+	- ##### MetaDataSchema
+		- schema which is used by particular datatypes like artifact or execution
+		- represented using OpenAPI schema objects in YAML format
 ## Model Registry

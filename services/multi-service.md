@@ -38,5 +38,5 @@ Else:
 ## Hybrid or Multicloud Strategies
 
 - GCP AI APIs can be integrated anywhere on-premises or in any application. You can call the pretrained APIs using an AWS Lambda function and take advantage of GCP ML
-- BigQuery Omni lets you run BigQuery analytics on data stored in Amazon S3 or Azure Blob Storage. If you want to join the data present in AWS or Azure with the data present in Google Cloud regions or if you want to utilize BigQuery ML capabilities, use the LOAD DATA SQL statement. This SQL statement lets you transfer data from BigQuery Omni–accessible S3 buckets into BigQuery native tables.
-- To train custom ML models on Vertex AI, Vertex AI is integrated with BigQuery and you can access the data from BigQuery Omni (data in S3, Azure) to train an AutoML or custom ML model using Vertex AI Training. You can also use BigQuery ML on the data.
+- BigQuery Omni lets you run [BigQuery](bigquery.md) analytics on data stored in Amazon S3 or Azure Blob Storage. If you want to join the data present in AWS or Azure with the data present in Google Cloud regions or if you want to utilize BigQuery ML capabilities, use the LOAD DATA SQL statement. This SQL statement lets you transfer data from BigQuery Omni–accessible S3 buckets into BigQuery native tables.
+- To train custom ML models on [Vertex AI](vertex.md), Vertex AI is integrated with BigQuery and you can access the data from BigQuery Omni (data in S3, Azure) to train an AutoML or custom ML model using Vertex AI Training. You can also use BigQuery ML on the data.
