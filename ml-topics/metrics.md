@@ -69,8 +69,21 @@ Mean Absolute Percentage Error
 You would choose MAPE when you care about proportional difference between actual and predicted value.
 
 ### $R^2$
+$$
+R^2 = 1 - \frac{SS_{Res}}{SS_{total}}
+$$
+$$
+SS_{Res} = \sum(y_{i} - \hat{y}_{i})^2
+$$
+$$
+SS_{total} = \sum(y_{i} - \bar{y})^2
+$$
 Square of the Pearson correlation coefficient (r) between the labels and predicted values
-
 Ranges from zero to one
 
 A higher value indicates a better fit for the model
+
+### Resources:
+1. [R-squared, Clearly Explained!!! (youtube.com)](https://www.youtube.com/watch?v=bMccdk8EdGo) 
+2. [Machine Learning Series- Revising Regression Performance Metrics,MSE,MAE,RMSE, R squared-Krish Naik (youtube.com)](https://www.youtube.com/watch?v=BGlEv2CTfeg)
+

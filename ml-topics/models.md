@@ -36,6 +36,10 @@ LSTMs can be used in a model to accept a sequence of input data and make a predi
 
 ![loss-functions](attachments/loss-functions.png)
 
+Use sparse categorical cross-entropy when your classes are mutually exclusive (when each sample belongs exactly to one class) 
+
+Use categorical cross-entropy when one sample can have multiple classes or labels
+
 # Hyperparameter Tuning
 
 ## Batch Size
