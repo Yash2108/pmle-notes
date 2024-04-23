@@ -3,7 +3,7 @@
 
 ## Classification
 ---
-![summary-of-classification-metrics](attachments/summary-of-classification-metrics.png)
+![](attachments/summary-of-classification-metrics.png)
 **Precision**: Answers the question - "Of all the instances predicted as positive (TP + FP), how many are actually positive?"
 **Recall**: Answers the question - "Of all the actual positive instances (TP + FN), how many did the model correctly identify as positive?"
 **Specificity**: Answers the question - "Of all the actual negative instances (TN + FP), how many did the model correctly identify as negative?"
@@ -12,13 +12,13 @@
 ### AUC
 
 **True Positive Rate (TPR):** How well the model identifies the positive class.
-![true-positive-rate](attachments/true-positive-rate.png)
+![](true-postiive-rate.png)
 
 **False Positive Rate (FPR)**: How often there are incorrect classifications of the positive class.
-![false-positive-rate](attachments/false-positive-rate.png)
+![](false-positive-rate.png)
 
 
-![auc-curve](attachments/auc-curve.png)
+![](attachments/auc-curve.png)
 This method has the following advantages:
 
 - Scale-invariant: It measures how well the predictions are ranked and not their absolute values.
@@ -31,7 +31,7 @@ The ideal point is the top left corner with 100% TPR which is never achieved. Th
 If two models are considered, 2 graphs are plotted and the area under the curve is used to compare. After the choice, you can find the threshold point that maximizes your F1.
 
 ### AUC PR Curve
-![auc-pr-curve](attachments/auc-pr-curve.png)
+![](attachments/auc-pr-curve.png)
 If the dataset is highly imbalanced, the AUC PR is preferred because a high number of true negatives can cause the AUC curve to be skewed.
 
 Ideal point is top right which has 100% recall and precision.
@@ -45,43 +45,15 @@ Best curve is a horizontal line across the top.
 
 ## Regression
 ---
-### MSE - Mean Squared Error
-$$
-MSE = \frac{1}{n}\sum_{i=1}^n (y - \hat{y})^2
-$$
-**Advantages:**
-1. Differentiable at all points because of the quadratic curve.
-2. It has one local and one global minima.
-3. Converges faster
 
-**Disadvantage:**
-1. Not robust to outliers (Equal penalty to outliers resulting in higher error).
-2. It is no longer in the same unit because of the square factor in the formula.
+### MAE
+Mean Absolute Error
 
-### MAE - Mean Absolute Error
-$$
-MAE = \frac{1}{n}\sum_{i=1}^{n}|y - \hat{y}|
-$$
-**Advantage:**
-1. Robust to outliers.  (The error is not squared).
-2. Units will not change. 
-
-**Disadvantage:**
-1. Convergence takes more time. (Not differentiable at 0)
-2. Time Consuming
-
-### RMSE - Root Mean Squared Error
-$$
-RMSE = \sqrt{ MSE }
-$$
-**Advantages:**
-1. Units don't change.
-2. Differentiable at all points. 
-
-**Disadvantage:**
-1. Not robust to outliers. 
+### RMSE
+Root Mean Squared Error
 
 If you are worried that your model might incorrectly predict a very large value and want to penalize the model, you can use this.
+
 Ranges from 0 to infinity.
 
 ### RMSLE
@@ -102,7 +74,3 @@ Square of the Pearson correlation coefficient (r) between the labels and predict
 Ranges from zero to one
 
 A higher value indicates a better fit for the model
-
-Resources:
-1. [R-squared, Clearly Explained!!! (youtube.com)](https://www.youtube.com/watch?v=bMccdk8EdGo) 
-2. [Machine Learning Series- Revising Regression Performance Metrics,MSE,MAE,RMSE, R squared-Krish Naik (youtube.com)](https://www.youtube.com/watch?v=BGlEv2CTfeg)
