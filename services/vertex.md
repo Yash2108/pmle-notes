@@ -75,7 +75,7 @@ Preferred Method: Sampled Shapley
 
 can use this to run [Kubeflow Pipelines](kubeflow.md#Kubeflow%20Pipelines) or Tensorflow Extended pipelines
 
-serverless
+serverless, hence easiest to set up
 
 provides [data lineage](ml-topics/lineage.md)
 
