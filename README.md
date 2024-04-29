@@ -4,10 +4,10 @@ This repo contains notes taken while preparing for Google's Cloud Platform Profe
 
 There are 4 major categories:
 
-1. [`Services`](services/README.md)
-2. [`ML Topics`](ml-topics/README.md)
-3. [`Concepts`](concepts/README.md)
-4. [`Scenario Based QnA`](scenario-based-qna/README.md)
+1. [`Services`](services.md)
+2. [`ML Topics`](ml-topics.md)
+3. [`Concepts`](concepts.md)
+4. [`Scenario Based QnA`](scenario-based-qna.md)
 
 PS: These notes were made using Obsidian. If the hyperlinks don't work, welp.
 #### Chapters/topics to revise from the book
@@ -15,7 +15,7 @@ PS: These notes were made using Obsidian. If the hyperlinks don't work, welp.
 - Chapter 10
 - Recommender Systems
 - Monitoring tools
-- 
+- Cloud Build
 
 #### Glossary
 ![glossary](attachments/glossary.pdf)
