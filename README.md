@@ -32,7 +32,8 @@ PS: These notes were made using Obsidian. If the hyperlinks don't work, welp.
 	<summary>
 		<b>Syllabus/Section-wise Guide</b>
 	</summary>
-	<b>Section 1: Architecting low-code ML solutions (~12% of the exam)</b>
+	
+	Section 1: Architecting low-code ML solutions (~12% of the exam)
 	    - 1.1 Developing ML models by using BigQuery ML. Considerations include:
 	        - Building the appropriate BigQuery ML model (e.g., linear and binary classification, regression, time-series, matrix factorization, boosted trees, autoencoders) based on the business problem
 	        - Feature engineering or selection by using BigQuery ML
@@ -49,7 +50,7 @@ PS: These notes were made using Obsidian. If the hyperlinks don't work, welp.
 	        - Creating forecasting models using AutoML
 	        - Configuring and debugging trained models
 	          
-	<b>Section 2: Collaborating within and across teams to manage data and models (~16% of the exam)</b>
+	Section 2: Collaborating within and across teams to manage data and models (~16% of the exam)
 	    - 2.1 Exploring and preprocessing organization-wide data (e.g., Cloud Storage, BigQuery, Cloud Spanner, Cloud SQL, Apache Spark, Apache Hadoop). Considerations include:
 	        - Organizing different types of data (e.g., tabular, text, speech, images, videos) for efficient training
 	        - Managing datasets in Vertex AI
@@ -67,7 +68,7 @@ PS: These notes were made using Obsidian. If the hyperlinks don't work, welp.
 	    - 2.3 Tracking and running ML experiments. Considerations include:
 	        - Choosing the appropriate Google Cloud environment for development and experimentation (e.g., Vertex AI Experiments, Kubeflow Pipelines, Vertex AI TensorBoard with TensorFlow and PyTorch) given the framework
 	          
-	<b>Section 3: Scaling prototypes into ML models (~18% of the exam)</b>
+	Section 3: Scaling prototypes into ML models (~18% of the exam)
 	    - 3.1 Building models. Considerations include:
 		    - Choosing ML framework and model architecture
 		    - Modeling techniques given interpretability requirements
@@ -84,7 +85,7 @@ PS: These notes were made using Obsidian. If the hyperlinks don't work, welp.
 	        - Evaluation of compute and accelerator options (e.g., CPU, GPU, TPU, edge devices)
 	        - Distributed training with TPUs and GPUs (e.g., Reduction Server on Vertex AI, Horovod)
 	          
-	<b>Section 4: Serving and scaling models (~19% of the exam)</b>
+	Section 4: Serving and scaling models (~19% of the exam)
 	    - 4.1 Serving models. Considerations include:
 	        - Batch and online inference (e.g., Vertex AI, Dataflow, BigQuery ML, Dataproc)
 	        - Using different frameworks (e.g., PyTorch, XGBoost) to serve models
@@ -98,7 +99,7 @@ PS: These notes were made using Obsidian. If the hyperlinks don't work, welp.
 	        - Scaling the serving backend based on the throughput (e.g., Vertex AI Prediction, containerized serving)
 	        - Tuning ML models for training and serving in production (e.g., simplification techniques, optimizing the ML solution for increased performance, latency, memory, throughput)
 	          
-	<b>Section 5: Automating and orchestrating ML pipelines (~21% of the exam</b>
+	Section 5: Automating and orchestrating ML pipelines (~21% of the exam)
 	    - 5.1 Developing end-to-end ML pipelines. Considerations include:
 	        - Data and model validation → **Chapter 2**
 	        - Ensuring consistent data pre-processing between training and serving
@@ -116,7 +117,7 @@ PS: These notes were made using Obsidian. If the hyperlinks don't work, welp.
 	        - Hooking into model and dataset versioning
 	        - Model and data lineage
 	          
-	<b>Section 6: Monitoring ML solutions (~14% of the exam)</b>
+	Section 6: Monitoring ML solutions (~14% of the exam)
 	    - 6.1 Identifying risks to ML solutions. Considerations include:
 	        - Building secure ML systems (e.g., protecting against unintentional exploitation of data or models, hacking)
 	        - Aligning with Google’s Responsible AI practices (e.g., biases)
